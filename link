@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Loading survey...</title>
+  <script>
+    const surveyA = "https://forms.gle/fN3PYMrv1XpLENH56";
+    const surveyB = "https://forms.gle/hkBkidE4newZdML56";
+
+    const chosen = Math.random() < 0.5 ? surveyA : surveyB;
+
+    window.location.replace(chosen);
+  </script>
+</head>
+<body>
+  Redirecting...
+</body>
+</html>
